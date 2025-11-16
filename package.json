@@ -1,0 +1,35 @@
+{
+  "name": "bergquist",
+  "main": "server.js",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "out": "next build && next export",
+    "deploy": "firebase deploy --only functions,hosting"
+  },
+  "dependencies": {
+    "@agoralabs-sh/avm-web-provider": "^1.7.0",
+    "@blockshake/defly-connect": "^1.2.1",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.3",
+    "@perawallet/connect": "^1.4.2",
+    "@txnlab/use-wallet-react": "^4.3.1",
+    "@walletconnect/modal": "^2.7.0",
+    "@walletconnect/sign-client": "^2.23.0",
+    "algosdk": "^3.3.0",
+    "dotenv": "^16.0.1",
+    "firebase": "^10.8.0",
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^5.0.1",
+    "lute-connect": "^1.6.3",
+    "next": "^12.1.0",
+    "nextjs-cors": "^2.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
