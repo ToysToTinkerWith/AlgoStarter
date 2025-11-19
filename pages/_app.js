@@ -15,7 +15,7 @@ import Connect from "../components/connect";
 export default function MyApp(props) {
 
   const manager = new WalletManager({
-    wallets: [WalletId.PERA, WalletId.DEFLY],
+    wallets: [WalletId.PERA, WalletId.DEFLY, WalletId.LUTE],
     defaultNetwork: NetworkId.MAINNET // or just 'mainnet'
   })
 
